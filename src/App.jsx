@@ -24,9 +24,12 @@ export default function App() {
 
   return (
     <>
+    <div className="page h-screen bg-gradient-to-r from-indigo-400 to-cyan-400 ">
+
     <RouterProvider router={router}/>
 
     <Footer/>
+    </div>
 
     </>
   )
